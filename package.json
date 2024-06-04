@@ -1,0 +1,44 @@
+{
+  "name": "stripe_typescipt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec ts-node src/index.ts",
+    "lint": "eslint . --ext .ts",
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' '*.ts' --write"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/ejs": "^3.1.5",
+    "@types/express": "^4.17.21",
+    "@typescript-eslint/eslint-plugin": "^7.6.0",
+    "@typescript-eslint/parser": "^7.6.0",
+    "eslint": "^8.56.0",
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.4"
+  },
+  "dependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "argon2": "^0.40.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "joi": "^17.12.3",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.9.3",
+    "nodemailer": "^6.9.13",
+    "sequelize": "^6.37.2",
+    "stripe": "^14.24.0",
+    "winston": "^3.13.0"
+  }
+}
